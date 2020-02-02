@@ -19,9 +19,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  k1 = key
-  v1 = value
-  Hash.new(k1: v1)
+  {key: value}
   # return a hash that includes the key and value parameters passed into this method
 end
 
