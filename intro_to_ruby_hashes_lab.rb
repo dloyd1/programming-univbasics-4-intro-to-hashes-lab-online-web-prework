@@ -13,8 +13,8 @@ def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
-def id_generator
-  {:height => 7}
+def id_generator(num)
+  {height: num}
   # return a hash with a key :id assigned to positive integer
 end
 
