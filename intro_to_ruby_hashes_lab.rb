@@ -14,7 +14,7 @@ def pioneer
 end
 
 def id_generator
-  {height: 7}
+  {:height => 7}
   # return a hash with a key :id assigned to positive integer
 end
 
